@@ -1,0 +1,387 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom header*/
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1200px;
+  padding: 0 32px;
+  margin: 0 auto;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-h2{
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.header-nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.header-nav{
+  margin-left: 20px;
+}
+.header-nav-2{
+  font-size: 20px;
+  margin-left: 150px;
+}
+.header-nav-2 a{
+  color: #fff;
+  margin-left: 30px;
+}
+.buttom{
+  background-color: red;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+.background{
+    background: linear-gradient(to right , rgba(83, 136, 197, 0.404), rgba(10, 202, 128, 0.541)), url('./assets/home-bg.jpg') ;
+   background-size: cover;
+   height: 800px;
+}
+header{
+  position: absolute;
+ width: 100%;
+ padding-top: 20px;
+}
+.section{
+  position: absolute;
+  top: 280px;
+  left: 70px;
+
+}
+.main-h1{
+  font-size: 50px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.main-box{
+  border: 2px solid #fff;
+  padding: 10px;
+  width: 130px;
+  margin-top: 30px;
+  border-radius: 20px;
+  color: #fff;
+  padding-left: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.section-div{
+  display: inline-flex;
+
+}
+.contact{
+  margin-left: 20px;
+  margin-top: 35px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.video{
+  margin-left: 50px;
+}
+.section-2-h2{
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-top: 120px;
+  font-family: "Roboto", sans-serif;
+}
+.dots{
+  font-size: 90px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-top: -60px;
+  color: rgb(207, 198, 198);
+}
+.section-2-img{
+  width: 300px;
+  margin-top: 30px;
+}
+.section-2-para{
+  width: 65%;
+  margin-top: 10px;
+}
+.section-2-h3{
+  width: 10%;
+
+  margin-right: 200px;
+  margin-top: 150px;
+}
+.section-num{
+  margin-left: 150px;
+  color: black;
+ 
+}
+.hr{
+  border: 2px solid black;
+  width: 150px;
+ 
+}
+.hr-2{
+  border: 2px solid black;
+  width: 160px;
+  /* margin-top: 5px; */
+}
+
+.section-2-div{
+  /* margin-top: 20px; */
+  
+  margin-right: 200px;
+}
+.section-num-1{
+  margin-left: 150px;
+  color: black;
+}
+.hr-4{
+  border: 2px solid black;
+  width: 140px;
+  margin-top: 5px;
+}
+.dots-2{
+  font-size: 90px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-top: -60px;
+  color: rgb(207, 198, 198);
+  text-align: center;
+}
+.section-3-h2{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+ padding-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.section-3-bg{
+  background-color: rgb(237,237,237);
+  height: 130vh;
+  
+}
+.section-3-img-1{
+  width: 200px;
+  height: 300px;
+  margin-left: 20px;
+ 
+}
+.sectiion-3-bg-2{
+  background-color: #fff;
+  height: 300px;
+  width: 320px;
+}
+time{
+  margin-left: 50px;
+  color: red;
+  font-weight: 700;
+ 
+}
+.section-3-h2-2{
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.margin-1{
+  margin-top: 50px;
+}
+.section-3-para{
+  margin-top: 10px;
+  margin-left: 30px;
+  color: rgb(126, 121, 121);
+}
+.section-3-button{
+  width: 120px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+  text-align: center;
+  background-color:rgb(226, 223, 223) ;
+}
+.div{
+  position: absolute;
+}
+.section-3-img-2{
+  width: 200px;
+  height: 300px;
+  margin-left: 50px;
+}
+.section-3-img-3{
+  width: 200px;
+  height: 300px;
+  margin-top: 350px;
+  margin-left: 30px;
+}
+.sectiion-3-bg-3{
+margin-left: 230px;
+margin-top: -300px;
+background-color: #fff;
+width: 320px;
+height: 300px;
+ }
+ .time-1{
+  margin-left: 50px;
+  color: red;
+  font-weight: 700;
+ }
+ 
+ .margin-2{
+   padding-top: 50px;
+ }
+.sectiion-3-img-4{
+  width: 200px;
+  height: 300px;
+  margin-top: 350px;
+ margin-left: 400px;
+}
+
+.section-4-h2{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+ padding-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.section-4-img{
+  height: 250px;
+  width: 250px;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+.section-5{
+  background: linear-gradient(to right , rgb(17,119,229), rgb(15, 112, 14));
+   background-size: cover;
+   height: 600px;
+  
+}
+.h2-sec{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 50px;
+}
+.full-name {
+  width: 300px;
+  padding: 15px;
+  background-color: #fff;
+  margin-top: 10px;
+ 
+}
+.full-name-1{
+  width: 640px;
+  background-color: #fff;
+  margin-top: 10px;
+  height: 100px;
+  padding: 10px;
+}
+.section-5-div {
+  padding-top: 150px;
+}
+.iframe iframe{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+.full-name-2{
+  width: 300px;
+  padding: 15px;
+  background-color: #fff;
+  margin-top: 10px;
+  
+}
+.btn{
+  margin-top: -110px;
+  margin-left: -500px;
+}
+.red-button{
+  padding: 10px 25px;
+  width: 150px;
+  background-color: red;
+  margin-left: 110px;
+  border-radius: 40px;
+  color: #fff;
+}
+.footer{
+  background-color: black;
+}
+.col{
+  color: #fff;
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 100px;
+}
+h2{
+  font-size: 30px;
+}
+p{
+  margin-top: 20px;
+  line-height: 1.5;
+  color: rgb(192, 187, 187);
+}
+hr{
+  color: #fff;
+}
+small{
+  color: #fff;
+}
